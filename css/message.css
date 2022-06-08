@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+.user{
+    display: block;
+    position: relative;
+    padding:2.2rem 1.5rem;
+    width: 100%;
+    height: 11rem;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    color: #fff;
+}
+.tx{
+    position: relative;
+    float: left;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tx>img{
+    width: 100%;
+    height: 100%;
+
+}
+.user-r{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    margin-left: 2rem;
+}
+.user-r>p:nth-child(1){
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin-bottom: 0.8rem;
+}
+.user>img{
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.hongbao{
+
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+}
+.hongbao>div{
+    float: left;
+    background-color:#fff;
+    width: 50%;
+    height: 8rem;
+    padding:1.6rem 0;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.hongbao>div>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.dizhi{
+    position: relative;
+    width: 100%;
+    height: 4.6rem;
+    margin-top: 1rem;
+    line-height: 4.6rem;
+    text-align: left;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.dizhi>img{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+
+}
+.dizhi>span{
+    font-size: #666;
+    font-size: 1.6rem;
+    margin-left: 5.4rem;
+}
+.yinsi{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #4da6f0;
+    width: 100%;
+    text-align: center;
+}
+/****************** 底部菜单部分 ******************/
+.footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.footer li p{
+    font-size: 2.8vw;
+}
+.footer li i{
+    font-size: 5vw;
+}
